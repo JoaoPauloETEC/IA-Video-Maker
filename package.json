@@ -4,7 +4,7 @@
   "description": "Inteligencia artificial composta por 4 robôs programados para criar videos automatizados",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/joaoqsl/ia-video-maker#readme",
   "dependencies": {
-    "readline-sync": "^1.4.10"
+    "algorithmia": "^0.3.10",
+    "readline-sync": "^1.4.10",
+    "sbd": "^1.0.18"
   }
 }
